@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700);
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #D83A56;
+	font-family: ubuntu;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background: #66DE93;
+}
+
+header img {
+  width: 50px;
+  background: #FFEAC9;
+  border-radius: 5px;
+  margin: 0 20px 0 40px;
+}
+
+article {
+  background: #FFEAC9;
+  border: 3px solid #66DE93;
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+hr, article .date {
+  color: #66DE93;
+}
